@@ -1,2 +1,2 @@
 "# JSFuncionalEReativo" 
-# JSFuncionalEReativo
+# JavaScript Funcional e Reativo
