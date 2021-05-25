@@ -16,12 +16,16 @@ const carrinho = [
     { nome: 'Tesoura', qtde: 1, preco: 19.20 },
 ]
 
-const getNome = item => item.nome
-console.log(carrinho.map(getNome))
+//map
 
-const getTotal = item => item.qtde * item.preco
-const totais = carrinho.map(getTotal)
-console.log(totais)
+// const getNome = item => item.nome
+// console.log(carrinho.map(getNome))
+
+// const getTotal = item => item.qtde * item.preco
+// const totais = carrinho.map(getTotal)
+// console.log(totais)
+
+// criando um map
 
 Array.prototype.meuMap = function(fn) {
     const novoArray = []
