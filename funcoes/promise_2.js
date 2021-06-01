@@ -7,12 +7,12 @@ setTimeout(function() {
         
         setTimeout(function() {
             console.log('Executando callback...')
-        }, 2000)
-    }, 2000)
-}, 2000)
+        }, 1000)
+    }, 1000)
+}, 1000)
 
 
-function esperarPor(tempo = 2000) {
+function esperarPor(tempo = 1300) {
     return new Promise(function(resolve) {
         setTimeout(function() {
             console.log('Executando promise...')
